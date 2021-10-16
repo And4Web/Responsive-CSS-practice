@@ -3,3 +3,19 @@
   padding: 0;
   box-sizing: border-box;
 }
+.header {
+  border: 2px solid red;
+  padding: 15px;
+}
+.content .left-menubar {
+  width: 25%;
+  float: left;
+  padding: 15px;
+  border: 2px solid red;
+}
+.content .main-content {
+  border: 2px solid red;
+  width: 75%;
+  float: left;
+  padding: 15px;
+}
