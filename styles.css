@@ -41,7 +41,13 @@
   width: 100%;
 }
 @media only screen and (max-width: 768px) {
-  /*For mobile phones only*/
+  /*For tablets only*/
+  [class*="col-"] {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 498px) {
+  /*For smartphones only*/
   [class*="col-"] {
     width: 100%;
   }
@@ -52,6 +58,7 @@
   clear: both;
   display: table;
 }
+
 [class*="col-"] {
   float: left;
   padding: 15px;
